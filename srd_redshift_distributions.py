@@ -53,7 +53,7 @@ class SRDRedshiftDistributions(object):
             raise ValueError(f"forecast_year must be one of {supported_forecast_years}.")
 
         # Read in the LSST DESC redshift distribution parameters
-        with open("parameters/lsst_desc_parameters.yaml", "r") as f:
+        with open("/content/Intrinsic-Alignment-Project/parameters/lsst_desc_parameters.yaml", "r") as f:
             lsst_desc_parameters = yaml.load(f, Loader=yaml.FullLoader)
 
         self.srd_parameters = lsst_desc_parameters[self.galaxy_sample][self.forecast_year]
