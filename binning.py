@@ -49,7 +49,7 @@ class Binning:
         self.redshift_distribution = redshift_distribution
         self.forecast_year = forecast_year
 
-        with open("parameters/lsst_desc_parameters.yaml", "r") as f:
+        with open("/content/Intrinsic-Alignment-Project/parameters/lsst_desc_parameters.yaml", "r") as f:
             self.lsst_parameters = yaml.load(f, Loader=yaml.FullLoader)
 
         self.lens_params = self.lsst_parameters["lens_sample"][self.forecast_year]
