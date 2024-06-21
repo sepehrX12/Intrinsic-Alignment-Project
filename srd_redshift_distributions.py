@@ -92,7 +92,7 @@ class SRDRedshiftDistributions(object):
         if not beta:
             beta = self.srd_parameters["beta"]
 
-        redshift_distribution = [z ** beta * exp(-(z / pivot_redshift) ** alpha) for z in redshift_range]
+        redshift_distribution = [(z/pivot_redshift) ** beta * exp(-(z / pivot_redshift) ** alpha) for z in redshift_range]
 
         return redshift_distribution
 
