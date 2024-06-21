@@ -31,11 +31,11 @@ lens_sample: # lens galaxy sample parameters
     n_gal: 18.  # number density of galaxies per arcmin^2
     galaxy_bias_prefactor: 1.05  # check page 48 of the SRD b(z) = 1.05 / growth_factor(z)
     galaxy_bias_values:
-      - 1.562362
-      - 1.732963
-      - 1.913252
-      - 2.100644
-      - 2.293210
+      - 1.229
+      - 1.362
+      - 1.502
+      - 1.648
+      - 1.799
   "10": # year 10 lens sample parameters
     limiting_magnitude: 25.3  # limiting magnitude in i-band
     sigma_z: 0.03  # photo-z variance (scatter = 0.03 * (1 + z))
