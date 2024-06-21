@@ -67,7 +67,7 @@ source_sample: # source galaxy sample parameters
     z_bias: 0.  # redshift bias values (5 source bins)
     n_tomo_bins: 5  # number of tomographic bins (equal number of galaxies per bin)
     beta: 2.  # power law index of the prefactor (check eq. 5 in the SRD paper)
-    alpha: 1.5  # power law index in the exponent (check eq. 5 in the SRD paper)
+    alpha: 1.1  # power law index in the exponent (check eq. 5 in the SRD paper)
     z_0: 0.13  # pivot redshift (check eq. 5 in the SRD paper)
     mean_eff_z: 0.85  # mean effective redshift
     n_gal: 10.  # number density of galaxies per arcmin^2
